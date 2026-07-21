@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_BWW2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Status: &lt;status&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EDME" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Distance: &lt;distance&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9RBA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Angle: &lt;angle&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CI3M" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Radar Project</Translation>
+      </Text>
+      <Text Id="RADAR_RANGE_25" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="RADAR_RANGE_50" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="RADAR_RANGE_75" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="RADAR_RANGE_100" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="RADAR_ANGLE_0" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0°</Translation>
+      </Text>
+      <Text Id="RADAR_ANGLE_45" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">45°</Translation>
+      </Text>
+      <Text Id="RADAR_ANGLE_90" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">90°</Translation>
+      </Text>
+      <Text Id="RADAR_ANGLE_135" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">135°</Translation>
+      </Text>
+      <Text Id="RADAR_ANGLE_180" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">180°</Translation>
+      </Text>
+      <Text Id="RADAR_UNIT_CM" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">cm</Translation>
+      </Text>
+      <Text Id="T_SPEED_TITLE" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">SERVO SPEED</Translation>
+      </Text>
+      <Text Id="T_SPEED_RADAR_PAUSED" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">RADAR PAUSED</Translation>
+      </Text>
+      <Text Id="T_SPEED_CURRENT_FAST" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">CURRENT: FAST</Translation>
+      </Text>
+      <Text Id="T_SPEED_CURRENT_SLOW" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">CURRENT: SLOW</Translation>
+      </Text>
+      <Text Id="T_SPEED_SELECT_FAST" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">PRESS B1: SELECT FAST</Translation>
+      </Text>
+      <Text Id="T_SPEED_SELECT_SLOW" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">PRESS B1: SELECT SLOW</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=" -" WildcardCharacterRanges="0-9,A-Z,a-z" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
