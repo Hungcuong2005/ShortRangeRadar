@@ -898,7 +898,5 @@ void StartDefaultTask(void *argument)
 
 [Video DEMO](https://drive.google.com/file/d/1AKqo4Kcm4mLzzdI5sOR6v7dJf-HXwzPO/view)
 
-link video demo sản phẩm.
-
 
 
