@@ -894,28 +894,6 @@ void StartDefaultTask(void *argument)
 ---
 
 ## KẾT QUẢ
-
-### Kết quả biên dịch
-
-Dự án đã biên dịch thành công bằng TouchGFX 4.25 và tạo được hai tệp nạp chính:
-
-- `target.elf`
-- `intflash.hex`
-
-| Vùng nhớ | Đã sử dụng | Dung lượng | Tỷ lệ |
-| --- | ---: | ---: | ---: |
-| RAM | 96.800 byte | 192 KiB | 49,24% |
-| FLASH | 173.228 byte | 2 MiB | 8,26% |
-| SDRAM | 450 KiB | 8 MiB | 5,49% |
-
-### Chức năng đạt được
-
-- Servo quét hai chiều từ 0° đến 180° với bước 5°.
-- HC-SR04 được đo bằng Input Capture và có timeout khi mất ECHO.
-- Hai tốc độ quét FAST và SLOW được điều khiển bằng nút USER.
-- FreeRTOS queue truyền dữ liệu từ RadarTask sang TouchGFX.
-- Giao diện hiển thị góc, khoảng cách, trạng thái và vệt mục tiêu.
-
 ### Minh chứng sản phẩm
 
 [Video DEMO](https://drive.google.com/file/d/1AKqo4Kcm4mLzzdI5sOR6v7dJf-HXwzPO/view)
