@@ -1,5 +1,4 @@
-
-# SHORT RANGE RADAR
+# BÀI TẬP LỚN - SHORT RANGE RADAR
 
 Hệ thống radar tầm ngắn sử dụng STM32F429I-DISC1, cảm biến HC-SR04, servo MG90S và giao diện TouchGFX.
 
@@ -21,23 +20,24 @@ HC-SR04 được gắn trên servo MG90S. STM32 điều khiển servo quay theo 
 4. Lựa chọn tốc độ FAST hoặc SLOW bằng nút USER (nhấn giữ 1s để mở giao diện cài đặt tốc độ, nhấn nhả để đổi tốc độ và tiếp tục quét).
 
 **Ảnh chụp minh họa:**
-
-
+![Ảnh minh họa 1](1.jpg)
+![Ảnh minh họa 2](2.jpg)
+![Ảnh minh họa 3](3.jpg)
 
 ---
 
 ## TÁC GIẢ
 
-- **Tên nhóm:** [Điền tên nhóm]
-- **Lớp học phần:** [Điền lớp học phần]
-- **Giảng viên hướng dẫn:** [Điền tên giảng viên]
+- **Tên nhóm:** TO LẮM
+- **Lớp học phần:** IT4210
+- **Giảng viên hướng dẫn:** ThS. Nguyễn Đức Tiến
 
 | STT | Họ tên | MSSV | Công việc |
 | ---: | --- | --- | --- |
-| 1 | Trung | [MSSV] | Cấu hình STM32 và tích hợp hệ thống |
-| 2 | Dương | [MSSV] | Driver HC-SR04 và RadarTask |
-| 3 | Cường | [MSSV] | Điều khiển servo|
-| 4 | Dân | [MSSV] | Thiết kế giao diện TouchGFX |
+| 1 | Phạm Quang Trung | 20235445 | Cấu hình STM32 và tích hợp hệ thống |
+| 2 | Nguyễn Tùng Dương | 20235311 | Driver HC-SR04 và RadarTask |
+| 3 | Phạm Hùng Cường | 20235286 | Điều khiển servo|
+| 4 | Trần Bá Dân | 20235291 | Thiết kế giao diện TouchGFX |
 
 ---
 
@@ -918,7 +918,7 @@ Dự án đã biên dịch thành công bằng TouchGFX 4.25 và tạo được 
 
 ### Minh chứng sản phẩm
 
-IMG_2901.MOV
+[Video DEMO](https://drive.google.com/file/d/1AKqo4Kcm4mLzzdI5sOR6v7dJf-HXwzPO/view)
 
 link video demo sản phẩm.
 
